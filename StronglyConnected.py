@@ -60,7 +60,7 @@ print(
 argumentas = input()
 if argumentas == "G":
     try:
-        print('Iveskite kiek briaunų turės orientuotas grafas. Iveskite skaičių nuo 2 iki 5: ')
+        print('Iveskite kiek viršūnių turės orientuotas grafas. Iveskite skaičių nuo 2 iki 5: ')
         x = input()
         if (int(x) > 5):
             sys.exit(0)
@@ -101,7 +101,7 @@ if argumentas == "G":
             plt.grid()
             plt.show()
     except:
-        print("Klaidingai įvestas briaunų skaičius")
+        print("Klaidingai įvestas viršūnių skaičius")
 
 elif argumentas == "I":
     try:
