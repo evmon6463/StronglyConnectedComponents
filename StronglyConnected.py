@@ -7,7 +7,6 @@ import time
 
 
 class Grafas:
-
     def __init__(self, virsunes):
         self.virsunes = virsunes
         self.grafas = defaultdict(list)
